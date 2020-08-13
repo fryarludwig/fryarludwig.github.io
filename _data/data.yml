@@ -29,6 +29,9 @@ sidebar:
       - idiom: English
         level: Native
 
+      - idiom: Spanish
+        level: Basic
+
     interests:
       - item: Climbing
         link:
@@ -47,8 +50,8 @@ career-profile:
       taught me theory, design, and evaluation of one or more arbitrary software systems.
       My internships taught me to focus on style, convention, and pragmatism. Professionally
       I focus on reliability, insight, and efficiency. My non-technical background provided
-      years of leadership, interpersonal, and soft-skills training. I’m proficient
-      individually and excel in close-knit, semi-autonomous teams.
+      years of leadership, interpersonal, and soft-skills training. While I'm proficient
+      on my own, I excel in close-knit, semi-autonomous teams.
 education:
     - degree: B.S. in Computer Science
       university: Utah State University
@@ -86,54 +89,39 @@ experiences:
           - Utilize both custom in-house and open-source packages across OS X, Windows, and Ubuntu Linux environments
           - Develop services in C#, Python, Javascript, and others keeping parity between legacy and active codebases
           - Manage Postgres, MSSQL, AWS, and flat file data stores to support data-driven workflows across core services
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Software Developer
+      time: 2016 - 2018
+      company: Utah Water Research Laboratory (UWRL)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        The UWRL is an environmental research arm of Utah State University. Known
+        for its specialized research facilities, the UWRL provides novel research
+        and software solutions for environmental research nationwide. As a software
+        developer, I managed software maintenance as well as the development of
+        a brand new evinro-data hub. Work was generally individual, although devs
+        provided direct support with our products' users.
+          - Using the ODM2 data standard, create a tool with a GUI that modifies a tool that's meant to automate data synchronization between popular environmental data sharing websites. (HydroShare).
+          - Design and create a new website and API based on project criteria, including virtual server setup/config
+          - Write software template/guided code for in-house hardware so researchers can put together a mayfly with only 3 lines of code per sensor.
+          - Cerate new Arduino-based development hardware intended to log and transmit data from environmental sensors.
+          - Create code template for researchers to use the new hardware, so all they have to do is add the pins, name, id, and sensor
+          - Provide custom software template for bespoke in-house hardware that was distributed to researchers nationwide.
+          - Maintain virtual servers, deploy udpates to servers, maintain Prod and Dev databases
+          - Provide support for researchers. (the code the write works, and I love that fact. That said, their code scares me)
+          - Handle ~16GB of data retrieval, transformation, and storage each day
+          - Provide and implement a data storage solution that allows near-instant retrievel of massive, filtered datasets to provide a responsive website interface.
+          - Write scripts that automate repetitive, tedious tasks - saving users time and effort
 projects:
-    title: Projects
+    title: Noteables
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Projects that I've really loved
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: HabMogs
+        link: "https://github.com/fryarludwig/hab_mogs"
+        tagline: "Groundstation system for High-Altitude Balloon (HAB) payloads, interfaces with HAB payload, controls communication hardware"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: H20Utility
+        link: "https://github.com/UCHIC/h2outility"
+        tagline: "Configures and automates large data transfers between HydroShare and any ODM2 databse"
 
 # publications:
 #     title: Publications
@@ -164,23 +152,26 @@ skills:
       - name: C#
         level: 98%
 
-      - name: Python & Django
+      - name: Python 2/3; Django
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Javascript
+        level: 86%
+
+      - name: C++
+        level: 82%
+
+      - name: SQL (PSQL, MSSQL)
         level: 98%
 
-      - name: SQL
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: Angular 1 & 2
+        level: 82%
 
       - name: HTML5 & CSS
         level: 60%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Photoshop
+        level: 72%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
