@@ -64,9 +64,11 @@ education:
         technical education. High-level advanced courses include:
           - Artificial intelligence and machine learning
           - Image processing and data extraction
+
 resume:
     - linktext: Download my resume
     - link: https://drive.google.com/file/d/1wJrVg1YBER9XGwv7HdV7Kao7UCQlXATo/view?usp=sharing
+
 experiences:
     - role: Software Developer
       time: 2018 - Present
@@ -106,6 +108,7 @@ experiences:
           - Handle ~16GB of data retrieval, transformation, and storage each day
           - Provide and implement a data storage solution that allows near-instant retrievel of massive, filtered datasets to provide a responsive website interface.
           - Write scripts that automate repetitive, tedious tasks - saving users time and effort
+
 projects:
     title: Noteables
     intro: >
