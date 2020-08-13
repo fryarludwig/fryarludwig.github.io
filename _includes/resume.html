@@ -7,12 +7,9 @@
       Resume
     </h2>
 
-    {% for r in resume %}
     <div class="item">
-      <h4 class="degree">{{ r.linktext }}</h4>
-      <h4 class="degree">{{ r.link }}</h4>
+      <a id="rlink" href="resume.link" target="_blank">resume.linktext</a>
     </div><!--//item-->
-    {% endfor %}
 
   </div><!--//resume-container-->
   {% else %}
@@ -25,20 +22,13 @@
       </span>
       Resume
     </h2>
+    <div class="meta">
 
-    {% for r in resume %}
-    <div class="item">
+      <div class="upper-row">
+        <a id="rlink" href="resume.link" target="_blank">resume.linktext</a>
+      </div><!--//upper-row-->
 
-      <div class="meta">
-
-        <div class="upper-row">
-          <h3 class="degree">{{ r.linktext }}</h3>
-          <div class="time">{{ r.link }}</div>
-        </div><!--//upper-row-->
-
-      </div><!--//meta-->
-    </div><!--//item-->
-    {% endfor %}
+    </div><!--//meta-->
 
   </section><!--//section-->
   {% endif %}
