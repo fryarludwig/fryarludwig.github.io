@@ -5,6 +5,7 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    resume: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Kenneth J. Fryar-Ludwig
@@ -63,20 +64,15 @@ education:
         technical education. High-level advanced courses include:
           - Artificial intelligence and machine learning
           - Image processing and data extraction
+resume:
+    - linktext: Download my resume
+    - link: https://drive.google.com/file/d/1wJrVg1YBER9XGwv7HdV7Kao7UCQlXATo/view?usp=sharing
 experiences:
     - role: Software Developer
       time: 2018 - Present
       company: RentDynamics
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Provide full-stack effort for a complex real-time system with many services.
           - Take technical ownership of critical services, systems, and integrations - including system design based on a JTBD, effort allocation, and maintenance, and other support/expansion roles
           - Take an active role in maintaining our entire infrastructure - spanning multiple DB languages, dozens of DB and server instances, server configuration (to an extent)
           - Provide direct developer-level support for internal queries, interacting across departments and roles, plus communicating situations, statuses, and plans directly with clients and customers.

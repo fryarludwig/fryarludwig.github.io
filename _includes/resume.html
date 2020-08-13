@@ -1,0 +1,45 @@
+{% assign resume = site.data.data.resume %}
+{% if resume %}
+  {% if site.data.data.sidebar.resume %}
+  <div class="education-container container-block">
+
+    <h2 class="container-block-title">
+      Education
+    </h2>
+
+    {% for r in resume %}
+    <div class="item">
+      <h4 class="degree">{{ r.linktext }}</h4>
+      <h4 class="degree">{{ r.link }}</h4>
+    </div><!--//item-->
+    {% endfor %}
+
+  </div><!--//education-container-->
+  {% else %}
+  <section class="section educations-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      Resume
+    </h2>
+
+    {% for r in resume %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="degree">{{ r.linktext }}</h3>
+          <div class="time">{{ r.link }}</div>
+        </div><!--//upper-row-->
+
+      </div><!--//meta-->
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+  {% endif %}
+{% endif %}
