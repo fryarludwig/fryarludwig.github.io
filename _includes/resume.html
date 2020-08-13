@@ -1,10 +1,10 @@
 {% assign resume = site.data.data.resume %}
 {% if resume %}
   {% if site.data.data.sidebar.resume %}
-  <div class="education-container container-block">
+  <div class="resume-container container-block">
 
     <h2 class="container-block-title">
-      Education
+      Resume
     </h2>
 
     {% for r in resume %}
@@ -14,9 +14,9 @@
     </div><!--//item-->
     {% endfor %}
 
-  </div><!--//education-container-->
+  </div><!--//resume-container-->
   {% else %}
-  <section class="section educations-section">
+  <section class="section resume-section">
 
     <h2 class="section-title">
       <span class="fa-stack fa-xs">
