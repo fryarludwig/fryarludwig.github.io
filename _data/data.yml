@@ -66,8 +66,8 @@ education:
           - Image processing and data extraction
 
 resume:
-    - linktext: Download my resume
-    - link: https://drive.google.com/file/d/1wJrVg1YBER9XGwv7HdV7Kao7UCQlXATo/view?usp=sharing
+    linktext: Download my resume
+    link: https://drive.google.com/file/d/1wJrVg1YBER9XGwv7HdV7Kao7UCQlXATo/view?usp=sharing
 
 experiences:
     - role: Software Developer
